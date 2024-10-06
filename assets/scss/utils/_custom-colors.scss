@@ -1,0 +1,50 @@
+$primary-dark: #025095;
+$primary: #5F8397;
+$primary-80: #6796BF;
+$primary-60: #9AB9D5;
+$primary-40: #CCDCEA;
+$primary-20: #E6F3FF;
+
+$secondary-dark: #FEA811;
+$secondary: #FEB941;
+$secondary-80: #FECB71;
+$secondary-60: #FBFEE1;
+$secondary-40: #FFEECF;
+$secondary-20: #FDF4E5;
+
+$dark: #000;
+$neutral-80: #484848;
+$neutral-60: #6F6F6F;
+$neutral-40: #B7B7B7;
+$neutral-20: #D3D3D3;
+$neutral-10: #E5E5E5;
+$light: #fff;
+
+
+// scss-docs-start theme-colors-map
+$custom-colors: (
+  "primary-dark": $primary-dark,
+  "primary": $primary,
+  "primary-80": $primary-80,
+  "primary-60": $primary-60,
+  "primary-40": $primary-40,
+  "primary-20": $primary-20,
+
+  "secondary-dark": $secondary-dark,
+  "secondary": $secondary,
+  "secondary-80": $secondary-80,
+  "secondary-60": $secondary-60,
+  "secondary-40": $secondary-40,
+  "secondary-20": $secondary-20,
+
+  "light":      $light,
+  "dark":       $dark,
+
+  "neutral-80": $neutral-80,
+  "neutral-60": $neutral-60,
+  "neutral-40": $neutral-40,
+  "neutral-20": $neutral-20,
+  "neutral-10": $neutral-10,
+) !default;
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
