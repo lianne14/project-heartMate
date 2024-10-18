@@ -18,6 +18,7 @@ $neutral-60: #6F6F6F;
 $neutral-40: #B7B7B7;
 $neutral-20: #D3D3D3;
 $neutral-10: #E5E5E5;
+$neutral: #EEE;
 $light: #fff;
 
 
@@ -45,6 +46,7 @@ $custom-colors: (
   "neutral-40": $neutral-40,
   "neutral-20": $neutral-20,
   "neutral-10": $neutral-10,
+  "neutral": $neutral,
 ) !default;
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
